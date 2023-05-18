@@ -1,31 +1,46 @@
- #background {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto+Condensed&display=swap');
+
+#background {
         height: 725px;
         background-color: #1A535C;
     }
+
 #content {
    max-width: 1600px;
    margin: 0 auto;
 }
+
 nav a{
   text-align:center;
   color: black;
   text-decoration: none;
+  padding: 35px;
  }
+
  #hero-msg h1,#hero-msg h4{
     text-align:center;
- }   
+ } 
+
  .button-box{
     text-align:center;
  }
+
  main section{
     text-align:center;
  }
+
  body{
     background-color: #1A535C;
+    font-family:"Roboto Condensed", 'Times New Roman', Times, serif ;
+    padding: 0;
+    margin: 0;
  }
+
  header{
     background-color: #8CBA54;
+    font-family:"Noto Serif", 'Courier New', Courier, monospace ;
  }
+
 nav a:hover{
     background-color: #1A535C;
     color: #ffffff;
@@ -34,6 +49,10 @@ nav a:hover{
     background-color: #1A535C;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, join:hover{
     background-color: #1A535C;
@@ -41,22 +60,35 @@ nav a:hover{
 }
 .msg{
     background-color: #1A535C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #1A535C;
     color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: black;
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
 }
 .msg h2{
     color: black;
+    font-family:'Roboto Condensed', sans-serif ;
+}
+h2 {
+    margin: 0;
 }
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: #ffffff;
@@ -70,6 +102,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -80,4 +113,25 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer.social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px; color: black;
+}
+main section img{
+    box-sizing: border-box;;
 }
