@@ -88,7 +88,7 @@ nav a:hover{
     box-shadow: 5px 5px 10px #6f7364;
 }
 footer{
-    background-color: #1A535C;
+    background-color: #8CBA54;
     color: #ffffff;
     padding: 25px 50px;
     margin-top: 200px;
@@ -198,6 +198,45 @@ footer .social img {
 main section img{
     box-sizing: border-box;;
 }
+/* page 2 image gallery css*/
+
+#grid-1{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px ;
+    column-gap: 30px;
+    padding-bottom: 80px ;
+    padding-top: 40px;
+}
+#image1{
+    width: 100%;
+    height: 350px;
+}
+#grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px ;
+    column-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+#image2{
+    width: 100%;
+}
+#grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px ;
+    column-gap: 20px;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+#image3{
+    width: 90%;
+    height: 500px;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
